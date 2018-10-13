@@ -1,5 +1,5 @@
 # Курс: *Android. Уровень 1*
-[Урок 1. Введение в систему Android](tree/lesson1)
+[Урок 1. Введение в систему Android](/itsanti/geek-android1/tree/lesson1)
 
 [Урок 2. Activity. Манифест и жизненный цикл](#)
 
