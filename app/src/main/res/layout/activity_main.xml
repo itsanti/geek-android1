@@ -13,6 +13,6 @@
         android:text="@string/weather"
 
         android:textSize="20dp"
-        android:padding="16dp"/>
+        android:padding="16sp"/>
 
 </FrameLayout>
