@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">Simple Weather App</string>
     <string name="weather">Погода</string>
+    <string name="enter_city">Введите город</string>
+    <string name="show">Показать</string>
 </resources>
