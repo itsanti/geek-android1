@@ -42,33 +42,31 @@
 
     </LinearLayout>
 
+
     <LinearLayout
+        android:id="@+id/params"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/weatherControl"
-        android:orientation="vertical">
+        android:layout_below="@+id/weatherControl"
+        android:orientation="vertical"
+        >
 
-        <TextView
+
+        <Switch
+            android:id="@+id/swWeatherText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Санкт-Петербург, +16.4, Ясно, 63%"
-            android:textSize="16sp" />
+            android:layout_margin="10dp"
+            android:switchPadding="20dp"
+            android:text="@string/swWeather" />
 
-        <TextView
+        <Switch
+            android:id="@+id/swHumidity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Москва, +18.4, Ясно, 54%"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Екатеринбург, +1.2, Пасмурно, 67%"
-            android:textSize="16sp" />
-
+            android:layout_margin="10dp"
+            android:switchPadding="20dp"
+            android:text="@string/swHumidity" />
     </LinearLayout>
 
 </RelativeLayout>
