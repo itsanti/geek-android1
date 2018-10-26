@@ -5,7 +5,7 @@
 
 [Урок 3. Activity. Смена ориентации экрана. Две Activity](https://github.com/itsanti/geek-android1/tree/lesson3)
 
-[Урок 4. Android Studio. Ресурсы и стили](#)
+[Урок 4. Android Studio. Ресурсы и стили](https://github.com/itsanti/geek-android1/tree/lesson4)
 
 [Урок 5. Фрагменты](#)
 
