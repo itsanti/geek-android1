@@ -3,7 +3,7 @@
 
 [Урок 2. Activity. Манифест и жизненный цикл](https://github.com/itsanti/geek-android1/tree/lesson2)
 
-[Урок 3. Activity. Смена ориентации экрана. Две Activity](#)
+[Урок 3. Activity. Смена ориентации экрана. Две Activity](https://github.com/itsanti/geek-android1/tree/lesson3)
 
 [Урок 4. Android Studio. Ресурсы и стили](#)
 

@@ -17,32 +17,56 @@
         android:textSize="20sp" />
 
     <LinearLayout
+        android:id="@+id/weatherControl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/weatherTitle"
-        android:orientation="vertical">
+        android:orientation="horizontal"
+        >
 
-        <TextView
+        <EditText
+            android:id="@+id/city"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/enter_city"
+            android:layout_weight="3"/>
+
+        <Button
+            android:id="@+id/btnShow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Санкт-Петербург, +16.4, Ясно, 63%"
-            android:textSize="16sp" />
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/show"/>
 
-        <TextView
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/params"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weatherControl"
+        android:orientation="vertical"
+        >
+
+
+        <Switch
+            android:id="@+id/swWeatherText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Москва, +18.4, Ясно, 54%"
-            android:textSize="16sp" />
+            android:layout_margin="10dp"
+            android:switchPadding="20dp"
+            android:text="@string/swWeather" />
 
-        <TextView
+        <Switch
+            android:id="@+id/swHumidity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Екатеринбург, +1.2, Пасмурно, 67%"
-            android:textSize="16sp" />
-
+            android:layout_margin="10dp"
+            android:switchPadding="20dp"
+            android:text="@string/swHumidity" />
     </LinearLayout>
 
 </RelativeLayout>

@@ -2,4 +2,9 @@
 <resources>
     <string name="app_name">Simple Weather App</string>
     <string name="weather">Погода</string>
+    <string name="enter_city">Введите город</string>
+    <string name="show">Показать</string>
+    <string name="err_no_city">Нет погоды для данного города</string>
+    <string name="swWeather">Показать облачность</string>
+    <string name="swHumidity">Показать влажность</string>
 </resources>

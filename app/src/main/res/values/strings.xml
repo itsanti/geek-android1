@@ -2,4 +2,9 @@
 <resources>
     <string name="app_name" translatable="false">Simple Weather App</string>
     <string name="weather">Weather</string>
+    <string name="enter_city">Enter City</string>
+    <string name="show">Show</string>
+    <string name="err_no_city">please search by city</string>
+    <string name="swWeather">Weather</string>
+    <string name="swHumidity">Humidity</string>
 </resources>
