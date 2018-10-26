@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
             //Toast.makeText(getApplicationContext(), city.getText(), Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(MainActivity.this, ResultsActivity.class);
-            intent.putExtra(inputCity, city.getText().toString());
+            intent.putExtra(inputCity, city.getText().toString().trim());
             intent.putExtra(swWeatherText, isWeatherText.isChecked());
             intent.putExtra(swHumidity, isHumidity.isChecked());
             startActivity(intent);
