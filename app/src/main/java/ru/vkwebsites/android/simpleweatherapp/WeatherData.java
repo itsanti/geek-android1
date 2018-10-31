@@ -2,6 +2,7 @@ package ru.vkwebsites.android.simpleweatherapp;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Objects;
 
 class WeatherData {
     private HashMap<String, String[]> data = new HashMap<>();
@@ -20,13 +21,13 @@ class WeatherData {
             return info;
         }
 
-        if (options.isEmpty()) return data.get(city)[0];
+        if (options.isEmpty()) return Objects.requireNonNull(data.get(city))[0];
 
-        if (options.indexOf(MainActivity.swWeatherText) > -1) info += ", " + data.get(city)[1];
+        if (options.indexOf(MainActivity.swWeatherText) > -1) info += ", " + Objects.requireNonNull(data.get(city))[1];
 
-        if (options.indexOf(MainActivity.swHumidity) > -1) info += ", " + data.get(city)[2];
+        if (options.indexOf(MainActivity.swHumidity) > -1) info += ", " + Objects.requireNonNull(data.get(city))[2];
 
-        return data.get(city)[0] + info;
+        return Objects.requireNonNull(data.get(city))[0] + info;
 
     }
 }

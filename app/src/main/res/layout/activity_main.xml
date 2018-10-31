@@ -3,18 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
-    <TextView
+    <TextView style="@style/tw_main_title"
         android:id="@+id/weatherTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:text="@string/weather" />
 
-        android:padding="16dp"
 
-        android:text="@string/weather"
-        android:textSize="20sp" />
 
     <LinearLayout
         android:id="@+id/weatherControl"
@@ -52,20 +49,12 @@
         >
 
 
-        <Switch
+        <Switch style="@style/main_switch"
             android:id="@+id/swWeatherText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:switchPadding="20dp"
             android:text="@string/swWeather" />
 
-        <Switch
+        <Switch style="@style/main_switch"
             android:id="@+id/swHumidity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:switchPadding="20dp"
             android:text="@string/swHumidity" />
     </LinearLayout>
 
