@@ -7,9 +7,9 @@
 
 [Урок 4. Android Studio. Ресурсы и стили](https://github.com/itsanti/geek-android1/tree/lesson4)
 
-[Урок 5. Фрагменты](#)
+[Урок 5. Фрагменты](https://github.com/itsanti/geek-android1/tree/lesson5)
 
-[Урок 6. Пользовательский интерфейс](#)
+[Урок 6. Пользовательский интерфейс](https://github.com/itsanti/geek-android1/tree/lesson6)
 
 [Урок 7. Списковые элементы пользовательского интерфейса](#)
 
